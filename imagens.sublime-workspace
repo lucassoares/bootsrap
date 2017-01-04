@@ -1,0 +1,280 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"qua",
+				"qualfoi"
+			],
+			[
+				"pr",
+				"prompt"
+			],
+			[
+				"Co",
+				"Comidas"
+			],
+			[
+				"pro",
+				"programador"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"move",
+				"moveDown"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 179.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/LUCAS/AppData/Roaming/Sublime Text 3/Packages/User/Chrome.sublime-build",
+		"/C/Users/LUCAS/Documents/GitHub/IndexPageArduino/index.html",
+		"/C/xampp/htdocs/teste/index.php",
+		"/C/Users/LUCAS/Desktop/arduino + php/index.php",
+		"/C/Users/LUCAS/Desktop/arduino + php/arduino.php",
+		"/C/Users/LUCAS/Desktop/arduino + php/index.html",
+		"/C/Users/LUCAS/Desktop/arduino/view/index.html",
+		"/C/Users/LUCAS/Desktop/app.js",
+		"/C/Users/LUCAS/Desktop/asas.html",
+		"/C/Users/LUCAS/Desktop/NAVE Trabalhos/Programation/hold/Sitezinho Embrasado/index.html",
+		"/C/Users/LUCAS/Documents/GitHub/EnglishWork/index.html",
+		"/C/Users/LUCAS/Desktop/NAVE Trabalhos/Programation/hold/Sitezinho Embrasado/WhiteCube.html",
+		"/C/Users/LUCAS/Desktop/NAVE Trabalhos/Programation/hold/Sitezinho Embrasado/Sobre.html",
+		"/C/Users/LUCAS/Desktop/NAVE Trabalhos/Programation/hold/Sitezinho Embrasado/outrosprojetos.html",
+		"/C/Users/LUCAS/Desktop/NAVE Trabalhos/Projeto de Jogo/Páginas HTML/index.html",
+		"/C/Users/LUCAS/Desktop/Parabens.html",
+		"/C/Users/LUCAS/Desktop/Cursinho/index.html",
+		"/C/Users/LUCAS/Desktop/Cursinho/contato.html",
+		"/C/Users/LUCAS/Desktop/Cursinho/historia.html",
+		"/C/Users/LUCAS/Desktop/Cursinho/sobre.html",
+		"/C/Users/LUCAS/Desktop/Cursinho/historia",
+		"/C/Users/LUCAS/Desktop/Scripts/Soma.html",
+		"/C/Users/LUCAS/Desktop/Scripts/Testezito.html",
+		"/C/Users/LUCAS/Desktop/Scripts/Hello World.html",
+		"/C/Users/LUCAS/Desktop/Scripts/Calculadora.html",
+		"/C/Users/LUCAS/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/LUCAS/Desktop/php/Conexao.php",
+		"/C/Users/LUCAS/Desktop/php/teste.php",
+		"/C/Users/LUCAS/Desktop/TESTE.html",
+		"/C/Users/LUCAS/Desktop/NAVE Trabalhos/Aulas/Aula2.html",
+		"/C/Users/LUCAS/Desktop/NAVE Trabalhos/Aulas/Aula.html",
+		"/C/Users/LUCAS/Desktop/Nova pasta/Aula.html",
+		"/C/Users/LUCAS/Desktop/Teste.html",
+		"/C/Users/LUCAS/Desktop/Ola.html",
+		"/E/Arquivos/MONITORIA PROGRAMAÇÃO/Jogo de Matematica/Jogo/Prinxel.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"100px",
+			"COM5",
+			"sobre",
+			"up",
+			"key_up",
+			"key",
+			"speed_y",
+			"seta",
+			"direita"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Chrome.sublime-build",
+	"project": "imagens.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
