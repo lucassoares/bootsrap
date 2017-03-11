@@ -1,0 +1,78 @@
+<html><head>
+		<meta charset="utf-8">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible">
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<title>Horário NAVE</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>
+		<!-- <script
+		  src="https://code.jquery.com/jquery-3.1.1.js"
+		  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+		  crossorigin="anonymous">
+		</script> -->
+		<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/code.js"></script>
+	</head>
+	<body>
+		<div class="page-header">
+			<h1>Horário do Pessoal do NAVE</h1>
+			<p class="lead">Ajudar o pessoal com o famoso</p>
+			<p style="text-align: right; margin-right: 20px">Atualizado em: 08/03 as 22:37</p>
+			<p>
+				<span class="menuSemanas" id="btnSegunda">Segunda</span>
+				<span class="menuSemanas" id="btnTerca">Terça</span>
+				<span class="menuSemanas" id="btnQuarta">Quarta</span>
+				<span class="menuSemanas" id="btnQuinta">Quinta</span>
+				<span class="menuSemanas" id="btnSexta">Sexta</span>
+			</p>
+			<h3 id="tituloSemana"></h3>
+		</div>
+		<div class="container">
+			<div class="row">
+					<div class="table-responsive">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>Horário</th>
+									<th>1001</th>
+									<th>1002</th>
+									<th>1003</th>
+									<th>1004</th>
+									<th>2001</th>
+									<th>2002</th>
+									<th>2003</th>
+									<th>2004</th>
+									<th>3001</th>
+									<th>3002</th>
+									<th>3003</th>
+									<th>3004</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="primeiraLinha"><th scope="row">1º</th><td>Portguês<br>Cristina<br><small>Sala: 35</small></td><td>Programação<br>Antoanne<br><small>Sala: 36</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+								<tr id="segundaLinha"><th scope="row">2º</th><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+								<tr id="terceiraLinha"><th scope="row">3º</th><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+								<tr id="quartaLinha"><th scope="row">4º</th><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+								<tr><td colspan="13"><strong>INTERVALO 09:30 - 09:50</strong></td></tr>
+								<tr id="quintaLinha"><th scope="row">5º</th><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+								<tr id="sextaLinha"><th scope="row">6º</th><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+								<tr><td colspan="7"><strong>ALMOÇO 11:30 12:30</strong></td></tr>
+								<tr id="setimaLinha"><th scope="row">7º</th><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+								<tr><td colspan="7"><strong>ALMOÇO 12:20 13:20</strong></td></tr>
+								<tr id="oitavaLinha"><th scope="row">8º</th><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+								<tr><td colspan="13"><strong>INTERVALO 15:00 - 15:20</strong></td></tr>
+								<tr id="nonaLinha"><th scope="row">9º</th><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+								<tr id="decimaLinha"><th scope="row">10º</th><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td><td>undefined<br>undefined<br><small>Sala: undefined</small></td></tr>
+							</tbody>
+						</table>
+					</div>
+				</div>				
+			</div>
+
+		<footer>
+			Desenvolvido por <a href="http://lucassoares.tk" title="">Lucas Soares</a>
+		</footer>
+	
+</body></html>
